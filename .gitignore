@@ -1,0 +1,27 @@
+# --- Build / sorties ---
+out/
+bin/
+target/
+build/
+*.class
+*.log
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# --- Archives générées (si produites automatiquement) ---
+*.jar
+*.war
+*.ear
+
+# --- OS / divers ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets / env (si tu en utilises) ---
+.env
