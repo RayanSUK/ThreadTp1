@@ -7,8 +7,8 @@ class UneFenetre extends JFrame
     private final int LARG=400, HAUT=250;
     
     public UneFenetre()
-    {
-        super("le Mobile");
+    {   //appele le constructurer de la classe Jframe
+        super("le Mobile"); //  titre de la barre  de titre de la fenetre
         // pas obligatoire. possible de mettre this.add(sonMobile)
         Container leConteneur = getContentPane();
         sonMobile = new UnMobile(LARG,HAUT);
